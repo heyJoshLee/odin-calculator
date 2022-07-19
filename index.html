@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <title>Odin Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Calculator</h1>
+    <div id="calculator">
+        <div id="display">
+            
+        </div>
+        <div id="functions-container">
+            <div id="add-button" class="button operator-button" data-value="+" data-function="add">Add</div>
+            <div id="subtract-button" class="button operator-button" data-value="-" data-function="subtract">Subtract</div>
+            <div id="multiply-button" class="button operator-button" data-value="*" data-function="multiply">Multiply</div>
+            <div id="divide-button" class="button operator-button" data-value="/" data-function="divide">Divide</div>
+        </div>
+        <div id="number-container">
+            <div class="number-row">
+                <div class="number-button button" data-value="7">7</div>
+                <div class="number-button button" data-value="8">8</div>
+                <div class="number-button button" data-value="9">9</div>
+            </div> 
+            <div class="number-row">
+                <div class="number-button button" data-value="4">4</div>
+                <div class="number-button button" data-value="5">5</div>
+                <div class="number-button button" data-value="6">6</div>
+            </div> 
+            <div class="number-row">
+                <div class="number-button button" data-value="1">1</div>
+                <div class="number-button button" data-value="2">2</div>
+                <div class="number-button button" data-value="3">3</div>
+            </div> 
+            <div class="number-row">
+                <div class="number-button button" data-value="0">0</div>
+                <div id="equals-button" class="button" data-function="operate">=</div>
+            </div> 
+        </div>  
+        <div id="clear-button" class="button">
+            Clear
+        </div>   
     
+    </div> <!-- #calculator-->
 </body>
 </html>

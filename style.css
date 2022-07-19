@@ -1,0 +1,40 @@
+.button {
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    background: rgb(30, 73, 159);
+    color: snow;
+    padding: 3px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+
+#number-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.number-row,
+#functions-container {
+    display: flex;
+}
+
+#display {
+    height: 30px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
